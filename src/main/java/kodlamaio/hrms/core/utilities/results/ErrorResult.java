@@ -2,7 +2,7 @@ package kodlamaio.hrms.core.utilities.results;
 
 public class ErrorResult extends Result {
 
-	public ErrorResult(boolean success) {
+	public ErrorResult() {
 		super(false);
 	}
 	public ErrorResult(String message) {
